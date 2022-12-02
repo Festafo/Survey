@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey</title>
+    <link rel="stylesheet" href="survey.css">
+
+<header>
+    <h2 class="header">Survey Form</h2>
+    <h4 class="subheader">Welcome to our survey page. Kindly furnish us with some information about you</h4>
+
+</header>
+
+</head>
+
+<body>
+    <div class="bod">
+    <form action="/action_page.php"">
+        <fieldset class="field">
+            <legend class="about">About You :)</legend>
+            <label class="label" for="fname">First Name</label><br>
+            <input  type="text" id="fname" placeholder="First letter in capital"><br><br>
+
+            <label class="label" for="lname">Last Name</label><br>
+            <input type="text" id="lname" placeholder="Type all letters in capitals"><br><br>
+
+            <label class="label" for="email">Email Address</label><br>
+            <input type="email" id="email" placeholder="xyz@xyz.com"><br><br>
+
+            <label class="label" for="age">Age</label><br>
+            <input type="number" id="age" placeholder="DOB(dd/mm/yy) or digits(00)"><br><br>
+
+            <label class="label" for="personality">Which option best describes you?</label><br>
+            <select name="personality" id="personality">
+                <option value="Introvert">Introvert</option>
+                <option value="Extrovert">Extrovert</option>   
+                <option value="Movie Lover">Movie Lover</option>
+                <option value="Sports Lover">Sports Lover</option>
+                <option selected="selected">Please select an option </option>
+            </select><br><br>
+
+            <label class="label" for="recommendation">Would you recommend this association to a friend?</label><br>
+            <input type="radio" name="category" value="Yes">Yes
+            <input type="radio" name="category" value="No">No
+            <br><br>
+
+            <label class="label" for="question">If No, please state your reason(s) briefly</label><br>
+            <textarea name="textarea" cols="50" rows="4" placeholder="Please type here"></textarea><br><br>
+
+            <label class="label" for="selection">Please check all that applies</label><br>
+            <input class="white" type="checkbox"; checked="checked">I have a bike <br>
+            <input class="white" type="checkbox"/>I have a car <br>
+            <input class="white" type="checkbox"/>I have a boat <br>
+            <input class="white" type="checkbox"/> I have a house
+            <br><br>
+
+
+
+
+
+            <label class="label" for="favourite">Please choose your favourite activity. Select all that applies using the "Ctrl" button</label><br>
+            <select name="fanta" id="fanta" size="5" multiple>
+                <option selected="selected">Please select as many as applies</option>
+                <option value="Cooking">Cooking</option>
+                <option value="Eating">Eating</option>
+                <option value="Jogging">Jogging</option>
+                <option value="Swimming">Swimming</option>
+                <option value="Reading">Reading</option>
+                <option value="Gisting">Gisting</option>
+                <option value="Sleeping">Sleeping</option>
+                <option value="Praying">Praying</option>
+                <option value="Skating">Skating</option>
+                <option value="Bowling">Bowling</option>
+                </select><br><br>
+
+            <label class="label" for="anyotherbiz">Any comments, suggestions or recommendations?</label><br>
+            <textarea name="other" id="other" cols="50" rows="5" placeholder="Comments please?"></textarea><br><br>
+
+            <button class="submit">Submit</button>
+
+        </fieldset>
+    
+    </form>
+
+</div>
+    
+</body>
+</html>

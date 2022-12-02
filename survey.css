@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+}
+.header, .subheader {
+    color:#9504abf8;
+    background-color: rgba(230, 240, 185, 0.261);
+    text-align: center;
+}
+.field {
+    background-image: url(sky.jpg);
+    background-size: cover;
+    margin: 0px 100px;
+}
+    
+.bod{
+    background-color: rgba(230, 240, 185, 0.261);
+}
+
+#fname, #lname, #email, #age, #personality {
+    width: 60%;
+    height: 30px;
+    border-radius: 25px;
+}
+
+#fanta{
+    width:60%;
+}
+
+#personality:hover{
+    background-color:#9504abf8;
+    color: white;
+}
+
+#fname:hover{
+    background-color:#9504abf8;
+    color: white;
+}
+
+#lname:hover{
+    background-color:#9504abf8;
+    color: white;
+}
+
+#email:hover{
+    background-color:#9504abf8;
+    color: white;
+}
+
+#age:hover{
+    background-color:#9504abf8;
+    color: white;
+}
+
+.label {
+    font-weight: bold;
+    color: #9504abf8;
+    background-color: rgb(204, 232, 248);
+    border: 1px solid #9504abf8;
+    border-radius: 25px;
+    padding: 2px 20px;
+}
+
+.about {
+    font-size: 25px;
+    color:#ff00d0;
+}
+
+.submit{
+    padding: 8px 100px;
+    margin-left: 40%;
+    background-color:rgb(204, 232, 248);
+    cursor: pointer;
+}
